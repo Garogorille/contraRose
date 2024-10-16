@@ -1,0 +1,188 @@
+<?xml version="1.0" standalone="no" ?>
+<manifest identifier="A3HayKIpvu_gDGW8-icUOlWtIBKoPH-iRe5Jq2BY" version="1.3"
+  xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3"
+  xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3"
+  xmlns:imsss="http://www.imsglobal.org/xsd/imsss"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd
+                      http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd
+                      http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd
+                      http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>CAM 1.3</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>
+  </metadata>
+  <organizations default="B0">
+    <organization identifier="B0" adlseq:objectivesGlobalToSystem="false">
+      <title>La contraception masculine</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>La contraception masculine</title>
+        <adlcp:dataFromLMS>eyJjcHYiOiJSZTVKcTJCWSIsInJsZCI6ZmFsc2V9</adlcp:dataFromLMS>
+        <imsss:sequencing>
+          <imsss:deliveryControls tracked="true" completionSetByContent="true" objectiveSetByContent="true"/>
+        </imsss:sequencing>
+      </item>
+      <metadata>
+        <adlcp:location>metadata.xml</adlcp:location>
+      </metadata>
+      <imsss:sequencing>
+        <imsss:controlMode choice="true" flow="true"/>
+      </imsss:sequencing>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormType="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/preloadIntegrity.js" />
+      <file href="scormdriver/driverOptions.js" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+
+      
+        <file href="scormcontent/lib/fonts/icomoon.ttf"/>
+        <file href="scormcontent/lib/fonts/icomoon.woff"/>
+
+        <file href="scormcontent/lib/icomoon.css"/>
+        <file href="scormcontent/lib/player-0.0.11.min.js"/>
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- FRONTEND BUNDLE ASSETS -->
+      <file href="scormcontent/lib/rise/079ecedc.js" />
+<file href="scormcontent/lib/rise/11732e6a.css" />
+<file href="scormcontent/lib/rise/67b98076.js" />
+<file href="scormcontent/lib/rise/8bb17022.css" />
+<file href="scormcontent/lib/rise/4c521154.js" />
+<file href="scormcontent/lib/rise/eb9bd09f.js" />
+<file href="scormcontent/lib/rise/27e7283a.js" />
+<file href="scormcontent/lib/rise/20be7de8.js" />
+<file href="scormcontent/lib/mondrian/entry.js" />
+<file href="scormcontent/lib/mondrian/201304b2.js" />
+<file href="scormcontent/lib/mondrian/2c5d12e2.js" />
+<file href="scormcontent/lib/mondrian/b176ca34.js" />
+<file href="scormcontent/lib/mondrian/d7134136.js" />
+<file href="scormcontent/lib/mondrian/c16e7dd3.js" />
+<file href="scormcontent/lib/mondrian/c1257364.js" />
+<file href="scormcontent/lib/mondrian/eab04a62.js" />
+<file href="scormcontent/lib/mondrian/714fc133.js" />
+
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/assets/lRuGLXfxdHh-DAiX/player-interface.js" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/player-interface.js" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/analytics-frame.html" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/html5/data/css/output.min.css" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/html5/data/js/6FvFzeF1tQy.js" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/html5/data/js/6l9kazSRUdj.js" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/html5/data/js/6q7OZzinMP7.js" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/html5/data/js/data.js" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/html5/data/js/frame.js" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/html5/data/js/paths.js" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/html5/lib/hls/hls.min.js" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/html5/lib/scripts/bootstrapper.min.js" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/html5/lib/scripts/frame.desktop.min.js" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/html5/lib/scripts/frame.mobile.min.js" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/html5/lib/scripts/slides.min.js" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/html5/lib/stylesheets/desktop.min.css" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/html5/lib/stylesheets/mobile.min.css" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/meta.xml" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/mobile/5WC0eEzQsH9.jpg" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/mobile/5Z2VxhwIVcK_P_62_0_1861_1202.png" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/mobile/6UfhMWaObCP.png" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/mobile/6a7Qq7bTUYC.png" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/mobile/poster_6rUCPmewsvj_video_6YuCgBQqksZ_22_48_102x102.jpg" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/story.html" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/story_content/thumbnail.jpg" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/story_content/user.js" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/story_content/video_6YuCgBQqksZ_22_48_102x102.mp4" />
+<file href="scormcontent/assets/lRuGLXfxdHh-DAiX/threeSixty.json" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/analytics-frame.html" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/html5/data/css/output.min.css" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/html5/data/js/6f2LjyhkNnT.js" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/html5/data/js/data.js" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/html5/data/js/frame.js" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/html5/data/js/paths.js" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/html5/lib/hls/hls.min.js" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/html5/lib/scripts/bootstrapper.min.js" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/html5/lib/scripts/frame.desktop.min.js" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/html5/lib/scripts/frame.mobile.min.js" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/html5/lib/scripts/slides.min.js" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/html5/lib/stylesheets/desktop.min.css" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/html5/lib/stylesheets/mobile.min.css" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/meta.xml" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/mobile/5lQGTMAibTs.png" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/mobile/6Cp2zrlr0OB_P_390_0_1401_1024.png" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/mobile/6bzdY8yk9mn.png" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/story.html" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/story_content/thumbnail.jpg" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/story_content/user.js" />
+<file href="scormcontent/assets/hiZdnlAXvyUkcfpI/threeSixty.json" />
+<file href="scormcontent/lib/fonts/Lato-Black.woff" />
+<file href="scormcontent/lib/fonts/Lato-Italic.woff" />
+<file href="scormcontent/lib/fonts/Lato-Bold.woff" />
+<file href="scormcontent/lib/fonts/Lato-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato-Light.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Black.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Italic.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Bold.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Regular.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Light.woff" />
+<file href="scormcontent/assets/q72zAIIVm4PMrwEb.gif" />
+<file href="scormcontent/assets/AdobeStock_483752729.jpg" />
+<file href="scormcontent/assets/ZfCJLM/AdobeStock_483752729.jpg" />
+<file href="scormcontent/assets/Femmes%20contraception.jpg" />
+<file href="scormcontent/assets/l%C3%A9gumes.jpg" />
+<file href="scormcontent/assets/spermatozoidevideo%201.gif" />
+<file href="scormcontent/assets/AdobeStock_175992521.jpg" />
+<file href="scormcontent/assets/Composition%201.gif" />
+<file href="scormcontent/assets/AdobeStock_487411728.gif" />
+<file href="scormcontent/assets/_cDVDp/mountains.jpg" />
+<file href="scormcontent/assets/frogs-1159441_1920.jpg" />
+<file href="scormcontent/assets/story.html" />
+<file href="scormcontent/assets/AdobeStock_317577170.mp4" />
+<file href="scormcontent/assets/AdobeStock_317577170.jpg" />
+<file href="scormcontent/assets/AdobeStock_245069268.jpg" />
+<file href="scormcontent/assets/5892e54b7a2e0.jpg" />
+<file href="scormcontent/assets/Sans%20titre-1.mp4" />
+<file href="scormcontent/assets/Sans%20titre-1.jpg" />
+<file href="scormcontent/assets/AdobeStock_224632947.jpg" />
+<file href="scormcontent/assets/AdobeStock_649480894.png" />
+<file href="scormcontent/assets/Vasectomie.mp4" />
+<file href="scormcontent/assets/Vasectomie.jpg" />
+<file href="scormcontent/assets/man-147613.svg" />
+<file href="scormcontent/assets/DALL%C2%B7E%202024-03-16%2017.23.33%20-%20Recreate%20the%203D%20animated%20film-style%20sperm%20cell%20character%20with%20big%2C%20round%20eyes%20and%20a%20distinctive%20black%20outline%2C%20complete%20with%20two%20arms%2C%20this%20time%20witho.jpg" />
+<file href="scormcontent/assets/thumbnail-20221122-191859-960x640.jpg" />
+<file href="scormcontent/assets/injection.jpg" />
+<file href="scormcontent/assets/quote_background.jpg" />
+<file href="scormcontent/assets/condoms-3112007_1920.jpg" />
+<file href="scormcontent/assets/Capture%20d%E2%80%99%C3%A9cran%202024-03-09%20%C3%A0%2015.56.51.jpg" />
+<file href="scormcontent/assets/s2AkBX/man-147613.svg" />
+<file href="scormcontent/assets/injecion.jpg" />
+<file href="scormcontent/assets/spermaquest.png" />
+<file href="scormcontent/assets/DALL%C2%B7E%202024-03-16%2017.24.23%20-%20A%20humorous%20sperm%20cell%20character%20with%20an%20inquisitive%20expression%2C%20perhaps%20with%20a%20tilted%20head%20or%20a%20raised%20eyebrow%2C%20to%20convey%20a%20sense%20of%20curiosity%20or%20ques.png" />
+<file href="scormcontent/assets/spermatozoide-2.gif" />
+<file href="scormcontent/assets/XqG7lZ/story.html" />
+
+      <file href="scormcontent/locales/und.js" />
+
+    </resource>
+  </resources>
+</manifest>
